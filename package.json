@@ -45,7 +45,8 @@
 		"production": "run-p production:**",
 		"prod": "npm run production",
 		"zip": "node node_scripts/zip.js thequeenkorea_4",
-		"bundle": "run-s production zip"
+		"bundle": "run-s production zip",
+		"sass": "sass --no-source-map --style=compressed -w ./scss/main.scss ./theme/custom-style.css"
 	},
 	"prettier": "@wordpress/prettier-config"
 }

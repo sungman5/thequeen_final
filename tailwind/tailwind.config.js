@@ -13,7 +13,21 @@ module.exports = {
 	],
 	theme: {
 		// Extend the default Tailwind theme.
-		extend: {},
+		extend: {
+			container : {
+				center : true,
+			},
+			screens : {
+				// '3xl' : '1920px',
+			},
+			colors : {
+
+			},
+			fontFamily : {
+				'Instrument': ['Instrument Sans', 'sans-serif'],
+				'suit': ['SUIT Variable', 'sans-serif']
+			}
+		},
 	},
 	corePlugins: {
 		// Disable Preflight base styles in builds targeting the editor.
